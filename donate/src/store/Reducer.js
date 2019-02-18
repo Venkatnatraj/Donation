@@ -1,7 +1,5 @@
 const initialState = {
-    total:10,
-    remain:1000
-
+    total:1000
 }
 
 const Reducer = (state = initialState, action)=>{
@@ -9,7 +7,8 @@ const Reducer = (state = initialState, action)=>{
         case "remain":
             return{
                 ...state,
-                remain:  state.total - state.remain
+                total:  state.total - action.payload,
+                
             }
     }
     return state

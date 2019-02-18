@@ -13,6 +13,7 @@
     "react-progressbar": "^15.4.1",
     "react-redux": "^6.0.0",
     "react-scripts": "2.1.5",
+    "react-tilt": "^0.1.4",
     "reactstrap": "^7.1.0",
     "redux": "^4.0.1"
   },

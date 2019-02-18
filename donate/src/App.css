@@ -1,6 +1,12 @@
 .App {
-  text-align: center;
+  align-content: center;
+  width: 400px;
+  margin: 25px;
+  border: 1px solid black;
 }
+
+
+
 .button {
   color: blue;
 }
@@ -19,5 +25,16 @@
 }
 .border{
   margin: 25px;
-  border: 5px solid gray;
+  border: 1px solid gray;
 }
+
+.progress{
+  color: rgba(255, 0, 0, 0.884);
+}
+.back{
+  background-color: rgba(0, 0, 0, 0.548);
+width: auto;
+height: 25px;
+padding-top: 5px;
+margin: 25px;
+ }

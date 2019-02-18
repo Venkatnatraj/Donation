@@ -1,5 +1,5 @@
 const initialState = {
-    total:0,
+    total:10,
     remain:1000
 
 }

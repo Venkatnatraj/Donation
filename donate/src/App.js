@@ -5,9 +5,7 @@ import {connect} from 'react-redux'
 
 
 class App extends Component {
-   onChange =(value)=>{
-    console.log('changed', value);
-  }
+
   render() {
     return (
       <div className="App">

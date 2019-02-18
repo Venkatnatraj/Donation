@@ -1,12 +1,16 @@
 const initialState = {
-    count:0,
-    total:100
+    total:0,
+    remain:1000
 
 }
 
 const Reducer = (state = initialState, action)=>{
-    switch(action){
-
+    switch(action.type){
+        case "remain":
+            return{
+                ...state,
+                remain:  state.total - state.remain
+            }
     }
     return state
 }
